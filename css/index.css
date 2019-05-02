@@ -256,10 +256,10 @@ nav ul li {
 .home .content-pick .destination .btn {
   width: 90%;
   padding: 2.25vh 0;
+  font-size: 2rem;
+  border-radius: 15px;
   border: 1px solid #C0C0C0;
   background-color: #17A2B8;
   text-align: center;
-  font-size: 2rem;
   color: #FFFFFF;
-  border-radius: 15px;
 }
