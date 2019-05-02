@@ -39,8 +39,39 @@ img {
   height: auto;
 }
 
+section {
+  @media @mobile {
+    flex-direction: column;
+  }
+}
+
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
+
+.header {
+  border-bottom: 2px dashed @navigation-border;
+  padding: 5vh 0;
+
+  .header-wrapper {
+    display: flex;
+    
+    &> * {
+      width: 48%;
+    }
+
+    @media @mobile {
+      width: 90%;
+      flex-direction: column;
+      align-items: center;
+        h1 {
+          text-align: center;
+        }
+        &> * {
+          width: 100%;
+        }
+    }
+  }
+} // header
