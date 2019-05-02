@@ -221,7 +221,7 @@ nav ul li {
   font-size: 1.6rem;
   padding: 20px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home {
     width: 90%;
   }
@@ -292,8 +292,9 @@ nav ul li {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home .content-pick {
+    flex-flow: column;
     align-items: center;
   }
 }
@@ -301,7 +302,7 @@ nav ul li {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .home .content-pick .destination {
     width: 75%;
   }
@@ -315,4 +316,9 @@ nav ul li {
   background-color: #17A2B8;
   text-align: center;
   color: #FFFFFF;
+}
+@media (max-width: 800px) {
+  .home .content-pick .destination .btn {
+    width: 100%;
+  }
 }
